@@ -1,4 +1,7 @@
 body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -8,22 +11,48 @@ header {
 nav {
   background-color: #fff;
 }
+.center {
+  text-align: center;
+}
 .info-item,
 .info-link {
-  color: rgba(255, 255, 255, .3)
+  color: rgba(255, 255, 255, .3);
+  font-size: 14px;
 }
 .nav-link {
   color: #444444;
 }
 .nav-link.active {
   color: #30a3f0;
+  font-size: 18px;
 }
 .title p {
   color: #30a3f0;
 }
 .title h1 {
   color: #fff;
+  font-size: 45px;
 }
 .btn {
-  color: #30a3f0; 
+  color: #30a3f0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.box h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.title-h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.title-h2 span {
+  font-size: 16px;
+}
+.decription {
+  color: #707070;
+}
+.last-decription {
+  color: #222222;
 }
