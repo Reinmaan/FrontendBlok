@@ -37,8 +37,12 @@ nav {
 .info-left .info-item {
   margin-right: 32px;
 } 
+.info-link svg {
+  color: #30a3f0;
+  margin-right: 5px;
+}
 .info-right .info-item {
-  margin-left: 17px;
+  margin-left: 6px;
 }
 .info-link {
   text-decoration: none;
@@ -46,11 +50,18 @@ nav {
 .info-link:hover {
   color: #30a3f0;
 }
+.register::before {
+  content: '/';
+  margin-right: 6px;
+}
 .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 220px;
+}
+.logo {
+  width: 155px;
 }
 .nav{
   display: flex;
@@ -77,6 +88,15 @@ nav {
   border-radius: 5px;
   border-radius: 5px;
   padding: 11px 19px;
+}
+.nav-item-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.nav-item-btn svg {
+  color: #444444;
+  padding-left: 21px;
 }
 .element {
   width: 1px;
