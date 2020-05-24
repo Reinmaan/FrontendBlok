@@ -295,3 +295,95 @@ nav {
   object-fit: cover;
   z-index: -1;
 }
+.photo-text {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: calc(50% - 22px);
+}
+.photo-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 14px;
+
+}
+.photo-item p {
+  color: #707070;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.photo-item:hover {
+  background-color: rgba(34,34,34,0.8);
+}
+.photo-item:hover .photo-text {
+  display: block;
+}
+.photo-btn {
+  display: none;
+}
+.photo-item:hover .photo-btn {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  bottom: -1px;
+  text-align: right;
+}
+.photo-btn svg {
+  color: #000;
+  background-color: #fff;
+  padding: 20px;
+}
+.photo-btn svg:hover {
+  color: #fff;
+  background-color: #30a3f0;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+.grid-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.grid-icon {
+  width: 95px;
+  height: 95px;
+  background-image: url(../img/grid-bg.png);
+  position: relative;
+}
+.grid-item:hover .grid-icon {
+  background-image: url(../img/grid-bg-blue.png)
+}
+.grid-icon svg {
+  color: #707070;
+  font-size: 18px;
+  position: absolute;
+  bottom: calc(50% - 9px);
+  right: calc(50% - 9px);
+}
+.grid-item:hover .grid-icon svg {
+  color: #fff;
+}
+.grid-text {
+  max-width: 225px;
+  text-align: left; 
+}
+.grid-text h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700px;
+}
+.grid-text p {
+  color: #707070;
+}
