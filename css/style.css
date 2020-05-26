@@ -103,7 +103,7 @@ nav {
   width: 1px;
   height: 100px;
   background-color: #2b88c7;
-  margin: 0 auto;
+  margin: auto;
 }
 .element-top {
   margin-bottom: 29px;
@@ -386,4 +386,46 @@ nav {
 }
 .grid-text p {
   color: #707070;
+}
+.title2 {
+  background-image: url(../img/bg-title2.png);
+  text-align: center;
+  background-size: cover;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.center2 {
+  margin-top: 60px;
+  margin-bottom: 55px;
+}
+.faces {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+.faces-item {
+  width: 32%;
+  text-align: center;
+}
+.faces-item img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.faces-item h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700px;
+  margin: 34 auto;
+}
+.faces-item img+p {
+  color: #30a3f0;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.faces-item h3+p {
+  color: #707070;
+  width: 85%;
+  margin: 0 auto;
 }
